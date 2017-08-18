@@ -1,0 +1,30 @@
+{
+  "name": "co-eval",
+  "version": "1.0.0",
+  "description": "Eval with co.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "co-eval": "./bin/co-eval",
+    "co": "./bin/co-eval"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nswbmw/co-eval.git"
+  },
+  "keywords": [
+    "co",
+    "eval",
+    "generator"
+  ],
+  "author": "nswbmw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nswbmw/co-eval/issues"
+  },
+  "homepage": "https://github.com/nswbmw/co-eval#readme",
+  "dependencies": {
+    "co": "4.6.0"
+  }
+}
