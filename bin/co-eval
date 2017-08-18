@@ -4,5 +4,7 @@ const path = require('path')
 const ___CO___ = require('co')
 const filename = require.resolve(path.resolve(process.cwd(), process.argv[2]))
 
+require('app-module-path').addPath(path.join(process.cwd(), 'node_modules'))
+
 const content = require('fs').readFileSync(filename, { encoding: 'utf8' })
 eval(`___CO___(function*(){${content}}).catch(console.error)`)
